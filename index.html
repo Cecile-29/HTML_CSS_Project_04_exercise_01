@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trois formulaires</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <table id="titre1"><th>Votre identité</th>></table>
+      <ol id="Liste_01">
+        <li><label for="nom">Nom :</label>
+        <input type="text" placeholder="Nom" name="nom" id="nom"></li>
+        <li><label for="prénom">Prénom :</label>
+        <input type="text" placeholder="Prénom" name="prénom" id="prénom"></li>
+        <li><label for="adresse">Adresse mail :</label>
+        <input type="text" placeholder="Adresse mail" name="adresse" id="adresse"></li>
+      </ol>
+      <table id="titre2"><th>Adresse de livraison</th></table>
+      <ol id="Liste_02">
+        <li><label for="AdresseLivraison">Adresse :</label>
+        <textarea  name="AdresseLivraison" id="AdresseLivraison" rows="6" cols="12"></textarea></li>
+        <li><label for="CodePostal">Code postal:</label>
+        <input type="text" placeholder="Code postal" name="CodePostal" id="CodePostal"></li>
+        <li><label for="Ville">Ville :</label>
+        <input type="text" placeholder="Ville" name="Ville" id="Ville"></li>
+      </ol>
+      <table id="titre3"><th>Informations de règlement</th></table>
+      <ol id="Liste_03">
+        <li>Type de carte bancaire :</li>
+        <li><label for="visa"><input id="visa" type="radio" name="visa">VISA</label></li>
+        <li><label for="Mastercard"><input type="radio" name="Mastercard">Mastercard</label></li>
+        <li><label for="Numéro">Numéro de carte :</label>
+        <input type="text" placeholder="Numéro de carte" name="Numéro" id="Numéro"></li>
+        <li><label for="Code">Code de sécurité :</label>
+        <input type="text" placeholder="Code de sécurité" name="Code" id="Code"></li>
+        <li><label for="Titulaire">Nom du titulaire :</label>
+        <input type="text" placeholder="Nom du titulaire" name="Titulaire" id="Titulaire"></li>
+      </ol>
+      <div id=button>
+        <button type="button" name="button">J'achète !</button>
+      </div>
+    </form>
+  </body>
+</html>
